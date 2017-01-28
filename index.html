@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KVIZ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="wrapp">
+  <h1>Kviz</h1>
+  <div id="categories" class="text-center">
+    <button id="all" class="btn category">Sve</button>
+    <button id="programming" class="btn btn-red category">Programiranje</button>
+    <button id="math" class="btn btn-blue category">Matematika</button>
+    <button id="hystory" class="btn btn-orange category">Istorija</button>
+    <button id="geography" class="btn btn-green category">Geografija</button>
+  </div>
+  <h2>Izaberite odredjenu kategoriju.</h2>
+  <div class="options">
+    <button class="option"></button>
+    <button class="option"></button>
+    <button class="option"></button>
+    <button class="option"></button>
+  </div>
+  <div class="results"></div>
+  <footer id="footer_main">
+    <button id="start">Pocni kviz</button>
+    <h3 id="footer_heading"></h3>
+  </footer>
+</div>
+  <script src="questions.js" charset="utf-8"></script>
+  <script src="quiz.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapp {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  margin: 0 auto 30px ;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  height: 80px;
+  line-height: 80px;
+  background: tomato;
+  color: white;
+}
+h2 {
+  color: tomato;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  padding: 60px 10px 35px;
+}
+.options {
+  min-height: 259px;
+}
+.option {
+  width: 270px;
+  height: 80px;
+  margin: 14px;
+  background: cadetblue;
+  color: white;
+  font-size: 23px;
+  border: 0 none;
+  border-radius: 7px;
+}
+.option:hover {
+  cursor: pointer;
+  background: darkslategray;
+}
+
+footer {
+  height: 80px;
+  background: darkslategray;
+  text-align: center;
+}
+#start {
+  width: 140px;
+  height: 40px;
+  margin: 18px;
+  background: tomato;
+  font-size: 22px;
+  border: 0 none;
+  border-radius: 7px;
+  color: white;
+}
+#start:hover {
+  cursor: pointer;
+  background: white;
+  color: tomato;
+}
+
+#categories {
+  position: absolute;
+  width: 94%;
+  height: 40px;
+  padding: 0 3%;
+}
+.btn {
+  border: 1px solid rgba(0,0,0,.2);
+  color: white;
+  padding: 7px 0;
+  display: inline-block;
+  margin: 0 1%;
+  width: 17.4%;
+  cursor: pointer;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.btn-red {
+  background-color: red;
+}
+.btn-blue {
+  background-color: blue;
+}
+.btn-orange {
+  background-color: orange;
+}
+.btn-green {
+  background-color: yellowgreen;
+}
+#footer_heading {
+  color: white;
+  margin: 30px;
+}
