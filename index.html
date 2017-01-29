@@ -12,13 +12,17 @@
 <div id="wrapp">
   <h1>Kviz</h1>
   <div id="categories" class="text-center">
-    <button id="all" class="btn category">Sve</button>
-    <button id="programming" class="btn btn-red category">Programiranje</button>
-    <button id="math" class="btn btn-blue category">Matematika</button>
-    <button id="hystory" class="btn btn-orange category">Istorija</button>
-    <button id="geography" class="btn btn-green category">Geografija</button>
+    <select id="selectCategory" class="form-control">
+      <option value="-1">-- Izaberi kategoriju --</option>
+      <option value="all">Sve kategorije</option>
+      <option value="programming">Programming</option>
+      <option value="life">Life</option>
+      <option value="nature">Nature</option>
+      <option value="science">Science</option>
+      <option value="astronomy">Astronomy</option>
+    </select>
   </div>
-  <h2>Izaberite odredjenu kategoriju.</h2>
+  <h2>Izaberite kategoriju.</h2>
   <div class="options">
     <button class="option"></button>
     <button class="option"></button>

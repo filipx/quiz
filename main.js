@@ -1,5 +1,6 @@
-var categoryBtns = document.getElementsByClassName('category');
 var categoryDiv = document.getElementById('categories');
+var categorySelect = document.getElementById('selectCategory');
+var categoryBtns = categorySelect.getElementsByTagName('option');
 var optionsDiv = document.getElementsByClassName('options')[0];
 var optionBtns = document.getElementsByClassName('option');
 var startBtn = document.getElementById('start');
@@ -11,12 +12,11 @@ optionsDiv.style.display = "none";
 footer.style.display = "none";
 footerHeading.style.display = "none";
 
-for (var i = 0; i < categoryBtns.length; i++) {
-  categoryBtns[i].addEventListener('click', categoryChose);
-}
+categorySelect.addEventListener('change', categoryChose);
+
 function categoryChose(e) {
-  quiz.checkCategory(this.id);
-  // console.log(this.id);
+  // console.log(this.value);
+  quiz.checkCategory(this.value);
   console.log(quiz.getCurrentQuestion().category);
   categoryDiv.style.display = "none";
   footer.style.display = "block";
@@ -32,8 +32,8 @@ function startQuiz(e) {
     categoryDiv.style.display = "none";
     results.style.display = "none";
     startBtn.style.display = "none";
-    heading.innerHTML = quiz.getCurrentQuestion().question;
-    footerHeading.innerHTML = 'Pitanje: ' + (quiz.currentIndex + 1) + ' od ' + quiz.questions.length;
+    heading.innerHTML = quiz.getCurrentQuestion().text;
+    footerHeading.innerHTML = 'Pitanje: ' + (quiz.currentIndex + 1) + ' od ' + quiz.cat.length;
     footerHeading.style.display = "inline-block";
     var testArr = [];
     var optionBtnsCopy = testArr.concat(quiz.getCurrentQuestion().options);
@@ -53,7 +53,7 @@ function userAnswer(e) {
 function quizReset() {
   startBtn.addEventListener('click', startQuiz);
   categoryDiv.style.display = "block";
-  heading.innerHTML = 'Izaberite odredjenu kategoriju.';
+  heading.innerHTML = 'Izaberite kategoriju.';
   optionsDiv.style.display = "none";
   results.innerHTML = "<h2>Ukupno poena: " + quiz.score + "</h2>";
   results.style.display = "block";
