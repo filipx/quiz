@@ -12,12 +12,18 @@ optionsDiv.style.display = "none";
 footer.style.display = "none";
 footerHeading.style.display = "none";
 
+// makeCategories();
+// function makeCategories() {
+//   for (var i = 0; i < quiz.questions.length; i++) {
+//     console.log(i++);
+//   }
+// }
 categorySelect.addEventListener('change', categoryChose);
 
 function categoryChose(e) {
   // console.log(this.value);
   quiz.checkCategory(this.value);
-  console.log(quiz.getCurrentQuestion().category);
+  // console.log(quiz.getCurrentQuestion().category);
   categoryDiv.style.display = "none";
   footer.style.display = "block";
   startBtn.style.display = "inline-block";

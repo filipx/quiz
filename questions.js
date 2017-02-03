@@ -1,4 +1,5 @@
 var questions = [];
+var url = "https://danilovesovic.github.io/allInOne/pitanja.json";
 
 window.addEventListener('load', loadQuestions);
 function loadQuestions(e) {
@@ -8,9 +9,9 @@ function loadQuestions(e) {
       getData(json);
     }
   });
-  json.open('GET','https://danilovesovic.github.io/allInOne/pitanja.json');
+  json.open('GET', url);
   json.send();
-    console.log(json);
+    // console.log(json);
 }
 function getData(json) {
   var data = json.responseText;

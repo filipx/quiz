@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background: brown;
+}
 
 #wrapp {
   position: relative;
   width: 600px;
   height: 500px;
-  margin: 0 auto 30px ;
+  margin: 20px auto 30px;
 }
 h1 {
   text-align: center;
@@ -16,11 +19,12 @@ h1 {
   line-height: 80px;
   background: tomato;
   color: white;
+  border-radius: 7px;
 }
 h2 {
   color: tomato;
   text-align: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid tomato;
   padding: 60px 10px 35px;
 }
 .options {
@@ -43,7 +47,7 @@ h2 {
 
 footer {
   height: 80px;
-  background: darkslategray;
+  background: maroon;
   text-align: center;
 }
 #start {
@@ -99,6 +103,6 @@ footer {
   background-color: yellowgreen;
 }
 #footer_heading {
-  color: white;
+  color: tomato;
   margin: 30px;
 }
