@@ -12,12 +12,15 @@ optionsDiv.style.display = "none";
 footer.style.display = "none";
 footerHeading.style.display = "none";
 
+function makeCategories(text) {
+  categorySelect.innerHTML = text;
+}
 categorySelect.addEventListener('change', categoryChose);
 
 function categoryChose(e) {
   // console.log(this.value);
   quiz.checkCategory(this.value);
-  console.log(quiz.getCurrentQuestion().category);
+  // console.log(quiz.getCurrentQuestion().category);
   categoryDiv.style.display = "none";
   footer.style.display = "block";
   startBtn.style.display = "inline-block";
