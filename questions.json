@@ -1,0 +1,114 @@
+[
+	{
+		"text" : "Sta je od ponudjenog event?",
+		"options" : ["onMouseUp", "RightClick", "mouseout", "move"],
+		"answer" : "mouseout",
+		"points" : 10,
+		"category" : "programming"
+	},
+	{
+		"text" : "OOP jezik je?",
+		"options" : ["JavaScript", "CSS", "AJAX", "C"],
+		"answer" : "JavaScript",
+		"points" : 10,
+		"category" : "programming"
+	},
+	{
+		"text" : "Koji programski jezik se bavi serverskom stranom?",
+		"options" : ["PHP", "HTML", "JavaScript", "XML"],
+		"answer" : "PHP",
+		"points" : 10,
+		"category" : "programming"
+	},
+	{
+		"text" : "Koji programski jezik se bavi serverskom stranom?",
+		"options" : ["PHP", "HTML", "JavaScript", "XML"],
+		"answer" : "PHP",
+		"points" : 10,
+		"category" : "programming"
+	},
+	{
+		"text" : "Glavnu ulogu u filmu Umri Muški glumi?",
+		"options" : ["Arnold Švarceneger", "Silvester Stalone", "Brus Vilis", "Klint Istvud"],
+		"answer" : "Brus Vilis",
+		"points" : 5,
+		"category" : "culture"
+	},
+	{
+		"text" : "Ko je komponovao Na Lepom Plavom Dunavu?",
+		"options" : ["Mocart", "Betoven", "Bah", "Štraus"],
+		"answer" : "Štraus",
+		"points" : 10,
+		"category" : "culture"
+	},
+	{
+		"text" : "Pobednik pesme Evrovizije za 2009 je?",
+		"options" : ["Srbija", "Finska", "Norveška", "Rusija"],
+		"answer" : "Norveška",
+		"points" : 10,
+		"category" : "culture"
+	},
+	{
+		"text" : "Najveći kopneni sisar je?",
+		"options" : ["Čovek", "Bengalski tigar", "Lav", "Slon"],
+		"answer" : "Slon",
+		"points" : 10,
+		"category" : "culture"
+	},
+	{
+		"text" : "Prvi Svetski rat je počeo?",
+		"options" : [1912, 1914, 1916, 1918],
+		"answer" : 1914,
+		"points" : 5,
+		"category" : "hystory"
+	},
+	{
+		"text" : "Do rascepa hrišćanske crkve na pravoslavnu i katoličku došlo je?",
+		"options" : [1054, 1517, 1389, 1492],
+		"answer" : 1054,
+		"points" : 10,
+		"category" : "hystory"
+	},
+	{
+		"text" : "Gde je počeo drugi srpski ustanak?",
+		"options" : ["Orašcu", "Takovu", "Kragujevcu", "Kruševcu"],
+		"answer" : "Takovu",
+		"points" : 10,
+		"category" : "hystory"
+	},
+	{
+		"text" : "\"Otac istorije\" je?",
+		"options" : ["Karl Marks", "Herodot", "Homer", "Ezop"],
+		"answer" : "Herodot",
+		"points" : 10,
+		"category" : "hystory"
+	},
+	{
+		"text" : "Koji je glavni grad Srbije?",
+		"options" : ["Beograd", "Budva", "Budimpesta", "Novi Sad"],
+		"answer" : "Beograd",
+		"points" : 5,
+		"category" : "geography"
+	},
+	{
+		"text" : "Grad Majami se nalazi u američkoj državi?",
+		"options" : ["Teksas", "Kalifornija", "Florida", "Nevada"],
+		"answer" : "Florida",
+		"points" : 5,
+		"category" : "geography"
+	},
+	{
+		"text" : "Kako se zove glavni grad Etiopije?",
+		"options" : ["Etiopija Siti", "Kartum", "Najrobi", "Adis Abeba"],
+		"answer" : "Adis Abeba",
+		"points" : 10,
+		"category" : "geography"
+	},
+	{
+		"text" : "Koje je najveće evropsko ostrvo?",
+		"options" : ["Sicilija", "Velika Britanija", "Krit", "Island"],
+		"answer" : "Velika Britanija",
+		"points" : 10,
+		"category" : "geography"
+	}
+];
