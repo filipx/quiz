@@ -1,5 +1,5 @@
 var questions = [];
-var url = 'https://danilovesovic.github.io/allInOne/pitanja.json';
+var url = 'https://raw.githubusercontent.com/filipx/quiz/master/questions.json';
 
 // slanje upita i preuzimanje JSON fajla sa podacima
 window.addEventListener('load', loadQuestions);
