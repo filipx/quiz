@@ -1,4 +1,4 @@
-[
+{
 	{
 		"text" : "Sta je od ponudjenog event?",
 		"options" : ["onMouseUp", "RightClick", "mouseout", "move"],
@@ -111,4 +111,4 @@
 		"points" : 10,
 		"category" : "geography"
 	}
-];
+}
